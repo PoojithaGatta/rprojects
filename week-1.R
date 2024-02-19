@@ -5,4 +5,10 @@ height<-c(190,142,152)
 gender<-c("FEMALE","FEMALE","MALE")
 df<-data.frame(student_name,age,weight,height,gender)
 df
-
+df$gender=ifelse(df$gender=="MALE","FEMALE","MALE")
+df
+working_status<-c("yes","no","yes")
+df1<-data.frame(row.names=student_name,working_status)
+df1
+data<-cbind(df1,df)
+data
