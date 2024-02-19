@@ -1,0 +1,7 @@
+student_name<-c("John","Robert","Priya")
+age<-c(18,19,21)
+weight<-c(45,35,60)
+height<-c(190,142,152)
+gender<-c("FEMALE","FEMALE","MALE")
+df<-data.frame(student_name,age,weight,height,gender)
+df
