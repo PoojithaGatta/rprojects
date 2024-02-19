@@ -5,3 +5,4 @@ height<-c(190,142,152)
 gender<-c("FEMALE","FEMALE","MALE")
 df<-data.frame(student_name,age,weight,height,gender)
 df
+
