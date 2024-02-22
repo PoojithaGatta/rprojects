@@ -12,3 +12,11 @@ df1<-data.frame(row.names=student_name,working_status)
 df1
 data<-cbind(df1,df)
 data
+class(state.center)
+data.state <- as.data.frame(state.center)
+a <- c("priya", "anusha", "sandhya")
+b <- c(92, 49, 95)
+c <- c("PASS", "FAIL", "PASS")
+df2 <- data.frame(a, b, c)
+df3 <- df2[order(df2$a), ]
+print(df3)
