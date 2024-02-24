@@ -70,3 +70,4 @@ new.df$Illiteracy.Levels <- ifelse(new.df$Illiteracy >= 0 & new.df$Illiteracy < 
                                    ifelse(new.df$Illiteracy >= 1 & new.df$Illiteracy < 2, "Some",
                                           "High"))
 
+
