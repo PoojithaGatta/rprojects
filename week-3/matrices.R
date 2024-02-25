@@ -6,7 +6,7 @@ m<-matrix(c(a,b,c),nrow=length(a))
 print(m)
 
 #exercise --2 
-matrix <- matrix(c(1, 8, 9,10,3,7,6,9), ncol = 3)
+matrix <- matrix(c(1, 8, 3, 4, 5, 9, 7, 8, 2, 6, 3, 7), ncol = 3)
 print("Original Matrix:")
 print(matrix)
 submatrix <- matrix[matrix[, 2] > 7, ]
@@ -32,7 +32,7 @@ print(col_min <- min_index[, 2])
 vec1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9)
 vec2 <- c(9, 8, 7, 6, 5, 4, 3, 2, 1)
 m<- matrix(vec1, nrow=3,ncol=3)
-m1<- matrix(vec1, nrow=3,ncol=3)
+m1<- matrix(vec2, nrow=3,ncol=3)
 print(m)
 print(m1)
 
