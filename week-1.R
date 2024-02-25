@@ -31,7 +31,7 @@ df3 <- df2[order(df2$a), ]
 print(df3)
 
 #exercise--5
-matrix1 <- matrix(1:40, nrow = 10, ncol = 4)
+matrix1 <- matrix(1:20, nrow = 5, ncol = 4)
 dataframe <- data.frame(matrix1)
 colnames(dataframe) <- paste("variable_", 1:ncol(dataframe))
 rownames(dataframe) <- paste("id_", 1:nrow(dataframe))
@@ -47,7 +47,7 @@ df4
 #exercise--7
 class(state.x77)
 df5 <- data.frame(state.x77)
-nrow(df5[df2$Income < 4300,])
+nrow(df5[df5$Income < 4300,])
 row.names(df5[which.max(df5$Income),])
 
 #exercise--8
