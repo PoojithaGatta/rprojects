@@ -15,6 +15,8 @@ df1<-data.frame(row.names=student_name,working_status)
 df1
 data<-cbind(df1,df)
 data
+nrow(data)
+ncol(data)
 
 #exercise--3
 class(state.center)
